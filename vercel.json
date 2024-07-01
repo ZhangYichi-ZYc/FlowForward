@@ -1,8 +1,9 @@
 {
   "rewrites": [
-    { "source": "/:match/:url*", "destination": "https://:match/:url*" },
-    { "source": "/:match/:url*/", "destination": "https://:match/:url*/" },
+    { "source": "/", "destination": "https://zhangyichi.cn" },
     { "source": "/http/:match/:url*", "destination": "http://:match/:url*" },
-    { "source": "/http/:match/:url*/", "destination": "http://:match/:url*/" }
+    { "source": "/http/:match/:url*/", "destination": "http://:match/:url*/" },
+    { "source": "/:match/:url*", "destination": "https://:match/:url*" },
+    { "source": "/:match/:url*/", "destination": "https://:match/:url*/" }
   ]
 }
